@@ -93,8 +93,6 @@ public class MyFirstStepWithJDBC {
 	/**
 	 * Cette méthode permet d'inserer en base de données quelques
 	 * enregistrements dans le but de tester nos futures requêtes.
-	 * 
-	 * Il est néanmoins bon de noter qu'
 	 */
 	public void insertClient() {
 		try {
@@ -191,8 +189,7 @@ public class MyFirstStepWithJDBC {
 	}
 
 	/**
-	 * Cette méthode permet d'afficher tous les cliens existant en BDD.
-	 * 
+	 * Cette méthode permet d'afficher tous les clients existant en BDD.
 	 */
 	public void getClient() {
 		String requete = "SELECT * FROM Client";
